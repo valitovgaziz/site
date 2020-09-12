@@ -1,13 +1,17 @@
 body {
-  background-image: url("images/fly_img.JPG");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: skyblue;
+  margin: 0%;
+  padding: 0%;
   font-size: 1.5em;
 }
 
 p {
   font-size: 2em;
+}
+.bkg_img {
+  z-index: -5;
+  width: 100%;
+  position: fixed;
+  top: 0%;
 }
 .container div {
   background-color: rgba(245, 245, 245, 0.39);
@@ -19,25 +23,33 @@ p {
   opacity: 0.85;
 }
 .container {
-    display: grid;
-    grid-template-columns: repeat( 100% , 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    grid-gap: 20px;
-    margin: 5%;
-  }
+  display: grid;
+  grid-template-columns: repeat( 100% , 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 20px;
+  margin: 5%;
+}
 
 .main_info {
   display: flex;
-  }
+  flex-wrap: wrap;
+}
 
+.gaziz_foto {
+  margin: 0 5% 0 0;
+  height: 200px;
+}
+.info {
+  
+}
 .biography {
 
-  }
+}
 
 .edu_crtf {
 
-  }
+}
 
 .skills {
 
-  }
+}
