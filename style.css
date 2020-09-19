@@ -27,6 +27,7 @@ body {
 }
 p, ul, ol {
   font-family: 'roboto_slabregular', sans-serif;
+  line-height: 150%;
 }
 h2 {
   font-family: 'ubuntu_titlingbold', sans-serif;
@@ -89,18 +90,6 @@ h2 {
 .icon {
   border-radius: 8px;
   width: 42px;
-}
-.biography {
-
-}
-.education_certif {
-
-}
-.skills {
-
-}
-.i {
-  
 }
 #no_bg {
   background-image: none;
