@@ -31,6 +31,7 @@ p, ul, ol {
 }
 h2 {
   font-family: 'ubuntu_titlingbold', sans-serif;
+  margin: 0%;
 }
 .bkg_img {
   z-index: -5;
@@ -47,7 +48,7 @@ h2 {
   grid-gap: 20px;
   margin: 5% auto 5% auto;
 }
-.container div {
+.container div, header, span {
   margin: 0% 10px 0% 10px;
   padding: 0%;
   background-color: rgba(245, 245, 245, 0.39);
@@ -57,6 +58,13 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
+  overflow: hidden;
+}
+.content {
+  height: 1em;
+}
+.content:hover {
+  height: auto;
 }
 .main_info {
   display: grid;
