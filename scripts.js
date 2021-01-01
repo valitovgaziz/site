@@ -1,10 +1,14 @@
 window.onload = function() {
-    let drop_dawn = getElementById('content');
-    drop_dawn.addEventListener( "click", {
-        handleEvent: function(event) {
-          alert('Событие вызвал handleEvent!');
-        }} );
-    
+    let check = document.getElementById('contentId');
+    check.onclick = falert;
+    function falert() {
+      alert("dsadsf");
+    }
+    var be = document.getElementsByClassName('content');
+    be.onclick = falert;
+    function falert() {
+      alert("dsadsf");
+    }
 }
     
 
