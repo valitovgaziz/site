@@ -1,13 +1,10 @@
 window.onload = function() {
-    let check = document.getElementById('contentId');
-    check.onclick = falert;
     function falert() {
       alert("dsadsf");
     }
-    var be = document.getElementsByClassName('content');
-    be.onclick = falert;
-    function falert() {
-      alert("dsadsf");
+    let contents = document.getElementsByClassName('content');
+    for (let i=0; i<contents.length; i++) {
+      contents[i].addEventListener("click", falert, false);
     }
 }
     
