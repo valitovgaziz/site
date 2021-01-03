@@ -64,9 +64,6 @@ h2 {
   height: 1em;
   position: relative;
 }
-.content:hover {
-  height: auto;
-}
 .main_info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
