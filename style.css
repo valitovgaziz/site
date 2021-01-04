@@ -63,6 +63,9 @@ h2 {
 .content {
   height: 1em;
   position: relative;
+	box-shadow: 0 0 40px rgba(47, 58, 145, 1); 
+	-webkit-box-shadow: 0 0 40px rgba(47, 58, 145, 1); 
+	-moz-box-shadow: 0 0 40px rgba(47, 58, 145, 1); 
 }
 .main_info {
   display: grid;
