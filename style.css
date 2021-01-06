@@ -63,9 +63,11 @@ h2 {
 .content {
   height: 1em;
   position: relative;
-	box-shadow: 0 0 40px rgba(47, 58, 145, 1); 
-	-webkit-box-shadow: 0 0 40px rgba(47, 58, 145, 1); 
-	-moz-box-shadow: 0 0 40px rgba(47, 58, 145, 1); 
+}
+.content:hover {
+  -webkit-box-shadow: 0px 0px 37px 22px rgba(205,209,222,0.48);
+  -moz-box-shadow: 0px 0px 37px 22px rgba(205,209,222,0.48);
+  box-shadow: 0px 0px 37px 22px rgba(205,209,222,0.48);
 }
 .main_info {
   display: grid;
