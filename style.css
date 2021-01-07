@@ -65,6 +65,7 @@ h2 {
   position: relative;
 }
 .content:hover {
+  cursor: pointer;
   -webkit-box-shadow: 0px 0px 37px 22px rgba(205,209,222,0.48);
   -moz-box-shadow: 0px 0px 37px 22px rgba(205,209,222,0.48);
   box-shadow: 0px 0px 37px 22px rgba(205,209,222,0.48);
@@ -97,6 +98,11 @@ h2 {
   grid-row-end: 4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+a:hover {
+  -webkit-box-shadow: 0px 0px 37px 22px rgba(205,209,222,0.48);
+  -moz-box-shadow: 0px 0px 37px 22px rgba(205,209,222,0.48);
+  box-shadow: 0px 0px 37px 22px rgba(205,209,222,0.48);
 }
 .icon {
   border-radius: 8px;
